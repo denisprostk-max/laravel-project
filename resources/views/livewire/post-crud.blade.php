@@ -7,6 +7,13 @@
         </div>
     @endif
 
+    <div class="bg-white rounded-2xl shadow p-6 mb-9">
+        <a href="{{ route('navigation') }}"
+           class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold">
+            Назад
+        </a>
+    </div>
+
     <div class="bg-white rounded-2xl shadow p-6 mb-8">
         <h2 class="text-xl font-semibold mb-4">
             {{ $isEditing ? 'Редактировать пост' : 'Создать пост' }}
@@ -93,3 +100,5 @@
         </div>
     </div>
 </div>
+
+
